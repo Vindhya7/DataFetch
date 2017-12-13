@@ -1,8 +1,6 @@
 package com.example.vindh.myapplication;
 
-/**
- * Created by vindh on 06-11-2017.
- */
+
 
 public class contacts {
 
@@ -28,7 +26,7 @@ public class contacts {
         return temp;
     }
     public String gethumid(){
-        //humid=humid.substring(0, humid.length()-2);
+      
         return humid;
     }
 
