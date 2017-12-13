@@ -79,7 +79,7 @@ public class DisplayListview extends AppCompatActivity {
 
         @Override
         protected void onPreExecute() {
-            JSON_URL ="http://10.56.10.173/bme/t.php";
+            JSON_URL =""; //Enter URL
         }
 
         @Override
