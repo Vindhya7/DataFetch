@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="com.example.vindh.myapplication.MainActivity">>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/back"
+        />
+
+
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Check Connection and get data"
+        android:id="@+id/b1"
+        android:onClick="getjson"
+        android:background="#C70039"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFF"
+
+        />
+  <!-- <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Get the data"
+        android:id="@+id/b2"
+        android:onClick="parsejson"
+        android:background="#C70039"
+        android:layout_marginTop="20dp"
+        android:textColor="#FFF"
+
+        />-->
+
+
+
+
+
+
+</LinearLayout>
+
+

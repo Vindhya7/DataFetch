@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    >
+
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:id="@+id/p"
+        android:gravity="center"
+        android:text="data"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/pp" />
+
+    <TextView
+        android:id="@+id/pp"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Pressure"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:id="@+id/temp"
+        android:gravity="center"
+        android:text="data"
+        android:layout_below="@+id/p"
+        android:layout_toEndOf="@+id/pp" />
+
+    <TextView
+        android:id="@+id/hh"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tempp"
+        android:gravity="center"
+        android:text="Humidity"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:id="@+id/h"
+        android:gravity="center"
+        android:text="data"
+        android:layout_below="@+id/temp"
+        android:layout_toEndOf="@+id/hh" />
+
+    <TextView
+        android:id="@+id/tempp"
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/p"
+        android:gravity="center"
+        android:text="Temperature"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="45dp"
+    android:layout_below="@+id/h"
+    android:id="@+id/b3"
+    android:onClick="getjs"
+    android:background="#C70039"
+    android:textColor="#FFF"
+    android:text="Update"
+    android:layout_centerHorizontal="true" />
+
+
+
+</RelativeLayout>
